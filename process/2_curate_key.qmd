@@ -6,9 +6,13 @@ author: "Jerid Francom"
 bibliography: ["../bibliography.bib", "../packages.bib"]
 ---
 
+
 ```{r}
 #| label: setup
 #| message: false
+
+install.packages("remotes")
+remotes::install_github("qtalr/qtalrkit")
 
 library(dplyr)        #
 library(knitr)        #
@@ -23,11 +27,10 @@ library(qtalrkit)     #
 #| echo: false
 #| eval: false
 
-#
-get_compressed_data(
-  url = "https://github.com/francojc/activ-es/raw/master/activ-es-v.02/corpus/plain.zip", #
-  target_dir = "data/original/actives" #
-)
+download.file(url = https:  /github.com/francojc/activ-es/raw/master/activ-es-v.02/corpus/plain.zip, destfile = "../data/original/plain.zip")
+
+unzip(zipfile = "../data/original/plain.zip",
+      exdir = "../data/original/actives/")
 ```
 
 ## Data
@@ -175,6 +178,8 @@ read_csv("../data/derived/actives_curated_dd.csv") |>
 
 ## Self-assessment
 
+I learned how to use data documentation to understand a resource.
+I found that combining the results into a single dataset is challenging,but I understood through reading the [][Recipe #6](https://qtalr.github.io/qtalrkit/articles/recipe-6.html)
 <!-- Complete the self-assessment -->
 
 

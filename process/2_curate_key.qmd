@@ -6,6 +6,12 @@ author: "Jerid Francom"
 bibliography: ["../bibliography.bib", "../packages.bib"]
 ---
 
+<!--
+
+Glad to see you were able to run through the code and reproduce the analysis. Your self-assessment is quite brief. I would like to see more detail about what you learned and how you plan to apply it in the future.
+
+-->
+
 
 ```{r}
 #| label: setup
@@ -179,7 +185,8 @@ read_csv("../data/derived/actives_curated_dd.csv") |>
 ## Self-assessment
 
 I learned how to use data documentation to understand a resource.
-I found that combining the results into a single dataset is challenging,but I understood through reading the [][Recipe #6](https://qtalr.github.io/qtalrkit/articles/recipe-6.html)
+I found that combining the results into a single dataset is challenging,but I understood through reading the [Recipe #6](https://qtalr.github.io/qtalrkit/articles/recipe-6.html)
+
 <!-- Complete the self-assessment -->
 
 

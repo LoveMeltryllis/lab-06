@@ -4,12 +4,40 @@ author: "Linzhuo Li"
 format: html
 ---
 
+<!--
+Overall: Excellent job, Linzhuo. You have a good understanding of the importance of data curation. I thank you for your thoughtful responses. I particularly appreciate your efforts to use our course resources as well as other resources to learn more about data curation.
+
+-->
+
+
 ## Self-assessment
-```{r}
+
+<!--
+Great. The data documentation is key to understanding a resource and making more effective use of it.
+-->
+
 I learned how to use data documentation to understand a resource.
 
+<!--
+
+The example in Recipe 6 is a more advanced example of data curation. Semi-structured data tends to be the more challenging to work with, but it often contains some great information for more advanced analysis.
+
+-->
+
 I found that combining the results into a single dataset is challenging,but I understood it through reading the [Recipe #6](https://qtalr.github.io/qtalrkit/articles/recipe-6.html)
-                                                                                                                 
+
+<!--
+One of the most important aspects of data curation is to ensure that the data is converted to information (a tidy dataset) that can be used for subsequent processing steps.
+
+It is also helpful to perform diagnostics like cross-tabulations and visualizations to ensure that the dataset is indeed in the format we expect it to be in. If not, we can go back and adjust the curation process.
+
+-->
+
 I would like to know more about best practices for ensuring data quality, strategies for data augmentation and enrichment, methods for handling bias and fairness issues, and approaches for maintaining the relevance and usefulness of curated datasets over time.
+
+<!--
+This is a good resources. Note that they group the curation and transformation steps together. This is a common practice, but it is also helpful to think of them as separate steps, especially for research projects where multiple transformed datasets may needed based on a single curated dataset.
+
+-->
 
 I can find the answer on [Here](https://www.techtarget.com/searchbusinessanalytics/definition/data-curation)
